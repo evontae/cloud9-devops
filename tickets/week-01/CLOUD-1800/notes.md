@@ -21,3 +21,11 @@
 > *.extension: Matches all files with a specific extension (e.g., *.txt, *.log).
 > **/name: Matches any file or directory named name at any level.
 > name/**: Matches all files and subdirectories inside name
+
+### Ticket Details
+
+1. I have spent a couple hours working through this ticket
+2. For the most part I had to review and figure out how to complete each step. There were some steps where it was 
+more of a refresher such as setting up SSH key and creating the github repo.
+3. I learned how to write MD or at least I was able to get some basic syntax down for writing it
+4. The gitignore was difficult and that was an item that I really had to get AI help with
