@@ -21,12 +21,14 @@ Each task is intentionally designed to force hands-on learning—building, break
 
 ## Repository Structure
 
+```
 cloudnine-devops/
 ├── tickets/           # Block assignments and solutions
 ├── tools/            # CLI tools and utilities I've built
 ├── infrastructure/   # Terraform configs and K8s manifests
 ├── scripts/          # Automation scripts
 └── docs/            # Documentation and learning notes
+```
 
 ## Progress Tracker
 
@@ -62,4 +64,4 @@ As I complete the program, this section will showcase:
 
 ---
 
-*Last updated: [Date]*
+*Last updated: [02/01/26]*

@@ -1,31 +1,32 @@
 # Notes
 
-
 ## Observations
 
-1. I decided on cloud9 for the name to make it easier for navigation and typing
-2. Did some Googling on setting up SSH and the git config global
-3. I know there is a command to recursively build directories but I built this the slow way one by one
-4. Mostly used the template provided
-5. I was very unsure of how to get the gitignote file going and spent quite some time looking this up
-6. Even with helpful items I still needed AI assistance to get the gitignore done correctly.
+1. Chose **cloud9** as the name mainly for simplicity — easy to type and easy to navigate.
+2. Did some Googling around setting up SSH and global Git config.
+3. I know there’s a command to recursively create directories, but I built everything manually, one by one.
+4. Mostly relied on the provided template as a starting point.
+5. I was pretty unsure about how to properly set up the `.gitignore` file and spent more time than expected researching it.
+6. Even with examples and references, I still needed AI help to get the `.gitignore` right.
 
+---
 
 ## Helpful Items
 
-> #### .gitignore File Patterns and Format
+### `.gitignore` File Patterns and Format
 
-> Blank line: Used to separate entries for readability.
-> #: Denotes a comment. Use \# to match a literal #.
-> /: Directory separator. Example: webdev/ ignores the webdev directory at the root.
-> *.extension: Matches all files with a specific extension (e.g., *.txt, *.log).
-> **/name: Matches any file or directory named name at any level.
-> name/**: Matches all files and subdirectories inside name
+- **Blank line** — used to separate entries for readability  
+- **#** — denotes a comment (use `\#` to match a literal `#`)  
+- **/** — directory separator (e.g. `webdev/` ignores the `webdev` directory at the repo root)  
+- **`*.extension`** — matches all files with a given extension (e.g. `*.txt`, `*.log`)  
+- **`**/name`** — matches any file or directory named `name` at any level  
+- **`name/**`** — matches all files and subdirectories inside `name`
 
-### Ticket Details
+---
 
-1. I have spent a couple hours working through this ticket
-2. For the most part I had to review and figure out how to complete each step. There were some steps where it was 
-more of a refresher such as setting up SSH key and creating the github repo.
-3. I learned how to write MD or at least I was able to get some basic syntax down for writing it
-4. The gitignore was difficult and that was an item that I really had to get AI help with
+## Ticket Details
+
+1. I spent a couple of hours working through this ticket.
+2. Most of the time was spent reviewing each step and figuring out how to complete it. Some parts were more of a refresher, like setting up SSH keys and creating the GitHub repo.
+3. I learned how to write Markdown — or at least got the basics down well enough to document things clearly.
+4. The `.gitignore` was the most challenging part and was the area where I needed the most AI assistance.
