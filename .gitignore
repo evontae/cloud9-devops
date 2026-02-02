@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Node (if used later)
+node_modules/
+
+# Misc temp files
+*.tmp
+*.swp
